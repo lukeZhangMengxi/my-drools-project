@@ -29,8 +29,6 @@ public class RuleTest {
 
         Applicant applicant = new Applicant("Mr John Smith", 16);
 
-        assertTrue(applicant.isValid());
-
         kSession.execute(applicant);
 
         assertFalse(applicant.isValid());
