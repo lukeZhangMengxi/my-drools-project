@@ -32,6 +32,23 @@
 
   <dependencies>
 
+    <!-- https://mvnrepository.com/artifact/org.kie/kie-api -->
+    <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <!--      <version>9.44.0</version>-->
+    </dependency>
+
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-xml-support</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-mvel</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.drools</groupId>
       <artifactId>drools-ruleunits-engine</artifactId>
